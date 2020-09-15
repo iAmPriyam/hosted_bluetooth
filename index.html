@@ -10,7 +10,6 @@
         />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <link href="./assets/css/style.css" rel="stylesheet" />
     </head>
     <body>
         <div class="main">
@@ -28,7 +27,7 @@
                     let key=event.key.toString()
                     window.parent.postMessage(key, "*");
                     document.querySelector(".ack").innerHTML=event.key+" pressed"
-                    console/log(event.key.toString()+" sent")
+                    console.log(event.key.toString()+" sent")
             });
         </script>
     </body>
